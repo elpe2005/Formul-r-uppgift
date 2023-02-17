@@ -3,27 +3,32 @@
     <head>
         <meta charset="utf-8">
         <title>label</title>
-        <link href="style.css" rel="stylesheet">
+        <link href="Hemsida.html" rel="stylesheet">
     </head>
     <body>
+        <form method="post" action="Hemsida.html">
         <h1>formulär</h1>
         <p>Vad heter du i förnamn och efternamn, skriv förnamn i första text boxen och efternamn i nästa.</p>
-        <form action="formular.html" method="post"></form>
         <label for="förnamn">Förnamn</label>
         <input type="text" id="namn" name="" namn="name"><br><br>
         <label for="efternamn">efternamn</label>
         <input type="text" id="enamn" efternamn="" namn="efternamn"><br><br>
         <p>hur mår du?</p>
         <label for="radio">inte bra</label>
-        <input type="radio">
+        <input type="radio" id="känsla1" name="känsla"><br><br>
         <label for="radio">bra</label>
-        <input type="radio">
+        <input type="radio" id="känsla2" name="känsla"><br><br>
         <label for="radio">bättre</label>
-        <input type="radio">
+        <input type="radio" id="känsla3" name="känsla"><br><br>
         <label for="radio">jättebra</label>
-        <input type="radio">
+        <input type="radio" id="känsla4" name="känsla"><br><br>
         <input type="checkbox">
-        <label for="checkbox"></label><br><br>
+        <label for="checkbox">Gillar du choklad</label><br><br>
+        <input type="checkbox">
+        <label for="checkbox">gillar du glass</label><br><br>
+        <input type="text">
+        <label for="text">Vill du lägga till något skriv i text rutan till vänster</label><br><br>
         <input type="submit" value="skicka">
+        </form>
     </body>
 </html>
